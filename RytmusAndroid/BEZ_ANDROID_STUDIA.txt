@@ -1,0 +1,21 @@
+RYTMUS — JAK ZISKAT APK BEZ ANDROID STUDIA
+
+1) Prihlas se na https://github.com (nebo si vytvor bezplatny ucet).
+2) Klikni na New repository; pojmenuj jej napr. rytmus-android a zvol Private.
+3) Rozbal ZIP s projektem. Na strance vytvoreneho repozitare zvol
+   Add file > Upload files, nahraj OBSAH rozbalene slozky (vcetne
+   skryte slozky .github/workflows/android-apk.yml), nikoliv ZIP samotny.
+   V pripade, ze ti prohlizec neumi nahrat skrytou slozku .github,
+   pridej soubor .github/workflows/android-apk.yml zvlast pres
+   Add file > Create new file a vloz jeho obsah ze stazeneho projektu.
+4) Potvrd Commit changes. Otevri kartu Actions > Sestavit APK.
+   Pokud se sestaveni nespusti samo, stiskni Run workflow.
+5) Po uspesnem dokonceni klikni na posledni spusteni a v casti Artifacts
+   stahni Rytmus-Android-APK. Rozbal jej, uvnitr je app-debug.apk.
+6) Soubor app-debug.apk posli na telefon, otevri a povol instalaci z tohoto
+   zdroje. V aplikaci povol oznameni a v nastaveni Androidu sluzbu
+   pristupnosti pro pripominky. V beznem rezimu neprichazi upozorneni
+   presne pri kazdem odemceni.
+
+POZOR: Build a provoz na skutecnem telefonu nebyly otestovane.
+Sestaveni na GitHubu potrebuje pripojeni k internetu a pristup k Android SDK.

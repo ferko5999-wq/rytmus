@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Rytmus</string>
+    <string name="accessibility_description">Volitelná služba pro připomínání, když aktivně používáte telefon. Sleduje odemčení telefonu, nečte obsah obrazovky, texty ani hesla. Připomínky přestanou až po splnění všech čtyř denních úkolů.</string>
+</resources>
